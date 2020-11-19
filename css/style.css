@@ -1,0 +1,160 @@
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
+}
+
+.states {
+    fill: #8cbd5c;
+    stroke: #444543;
+    stroke-width: 1px;
+}
+
+
+.map {
+    border: 2px solid #444543;
+    margin: 15px 20px 10px 20px;
+    background-color: #60aee6;
+    display: inline-block;
+}
+
+.counties {
+    stroke: #444543;
+    stroke-width: 1px;
+    stroke-linecap: round;
+}
+
+.chart {
+    background-color: #fff;
+    padding: 10px 5px 5px 0px;
+    border: 2px solid #444543;
+    margin: 15px 20px 10px 20px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.numbers {
+    fill: white;
+    font-family: sans-serif;
+}
+
+.chartTitle {
+    font-family: "palatino","bookman";
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.chartTitle2 {
+    font-family: "palatino","bookman";
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.chartBackground {
+    fill: #fff;
+}
+
+.chartFrame {
+    fill: none;
+    stroke: none;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+.dropdown {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "palatino","bookman";
+    font-size: 1em;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option { 
+    font-weight: normal;
+} 
+
+.infolabel {
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #54544d;
+    font-family:"palatino","bookman";
+    border: solid thin #E5E4E2;
+    padding: 5px 10px;
+    
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0; 
+    display: inline-block;
+    line-height: 1em;
+}
+
+#maptitle {
+    background-color: #54544d;
+    
+}
+
+.mapTitletext {
+    padding: 10px;
+    text-align: center;
+    color: #E5E4E2;
+    font-family:"palatino","bookman";
+    font-size: 2em;
+    text-shadow: 1.5px 1.5px #727472; 
+}
+
+.bar {
+    stroke: #444543;
+    stroke-width: .3px;
+}
+
+.pa {
+    fill: #ffff;
+}
+
+.html .body {
+    background-color: #d1d1cf;
+    height: 100%;
+}
+
+.dataTitle {
+    font-family:"palatino","bookman";
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+
+}
+
+
+#mapchartdiv {
+    background-color: #d1d1cf;
+    margin: 8px 0px 0 0px;
+
+
+}
+
+#mapinfo {
+    padding: 10px 40px 10px 40px;
+}
