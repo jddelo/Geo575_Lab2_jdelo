@@ -38,7 +38,6 @@
     border: 2px solid #444543;
     margin: 15px 20px 10px 20px;
     display: inline-block;
-    position: relative;
 
 }
 
@@ -71,7 +70,6 @@
 }
 
 .dropdown {
-    display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
     margin: 0 auto;
@@ -81,6 +79,7 @@
     padding: 2px;
     border: 1px solid #999;
     box-shadow: 2px 2px 4px #999;
+    display: block;
 }
 
 option { 
@@ -130,7 +129,7 @@ option {
     fill: #ffff;
 }
 
-.html .body {
+html .body {
     background-color: #d1d1cf;
     height: 100%;
 }
@@ -138,23 +137,30 @@ option {
 .dataTitle {
     font-family:"palatino","bookman";
     font-size: 1.2em;
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin: 0 auto;
-    display: flex;
     text-align: center;
+    display: inline-block;
 
 }
 
 
 #mapchartdiv {
     background-color: #d1d1cf;
-    margin: 8px 0px 0 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
 
 }
 
 #mapinfo {
     padding: 10px 40px 10px 40px;
+    background-color: #d1d1cf;
+}
+
+#attselector {
+    text-align: center;
+    background-color: #d1d1cf;
 }

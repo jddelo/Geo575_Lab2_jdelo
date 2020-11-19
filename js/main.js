@@ -151,22 +151,6 @@ function setChart(csvData, colorScale){
             return choropleth(d, colorScale);
         });
 
-    /*var chartTitle = chart.append("text")
-        .attr("x", 140)
-        .attr("y", 40)
-        .attr("class", "chartTitle")
-        .text("Ratio of Post-Secondary Degrees to No High School Diplomas");
-        
-    var chartTitle2 = chart.append("text")
-        .attr("x", 245)
-        .attr("y", 60)
-        .attr("class", "chartTitle2")
-        .text("for " + attrDict[expressed][0] + " by County");  */
-
-
-
-
-
   
 
 
@@ -278,7 +262,7 @@ function createDropdown(csvData, attrDict){
         });
 
     var titleOption = dropdown.append("option")
-       .attr("class", "titleOption") 
+        .attr("class", "titleOption") 
         .attr("disabled", "true") 
         .text("Select Gender & Age Range");
     var attrOptions = dropdown.selectAll("attrOptions")
@@ -335,8 +319,6 @@ function updateChart(bars, n, colorScale){
     var dataTitle = d3.select(".dataTitle")
         .text("Ratio of Post-Secondary Degrees to No High School Diplomas for " + attrDict[expressed][0] + " by County");
     
-    /*var chartTitle2 = d3.select(".chartTitle2")
-        .text("for " + attrDict[expressed][0] + " by County"); */
 
 };
 
