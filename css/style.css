@@ -23,7 +23,7 @@
     border: 2px solid #444543;
     margin: 15px 20px 10px 20px;
     background-color: #60aee6;
-    display: inline-block;
+    display: flexbox;
 }
 
 .counties {
@@ -34,28 +34,11 @@
 
 .chart {
     background-color: #fff;
-    padding: 10px 5px 5px 0px;
+    padding: 10px 5px 0px 0px;
     border: 2px solid #444543;
     margin: 15px 20px 10px 20px;
-    display: inline-block;
+    display: flexbox;
 
-}
-
-.numbers {
-    fill: white;
-    font-family: sans-serif;
-}
-
-.chartTitle {
-    font-family: "palatino","bookman";
-    font-size: 1.1em;
-    font-weight: bold;
-}
-
-.chartTitle2 {
-    font-family: "palatino","bookman";
-    font-size: 1.1em;
-    font-weight: bold;
 }
 
 .chartBackground {
@@ -151,6 +134,7 @@ html .body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 15px;
 
 
 }
@@ -163,4 +147,12 @@ html .body {
 #attselector {
     text-align: center;
     background-color: #d1d1cf;
+}
+
+#footer {
+    font-size: .7em;
+    font-family:"palatino","bookman";
+    background-color: #54544d;
+    color: #E5E4E2;
+    padding: 8px;
 }
